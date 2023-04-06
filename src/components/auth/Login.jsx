@@ -7,7 +7,7 @@ const Login = () => {
       <form>
         <div className="py-6 flex flex-col justify-center sm:py-8">
           <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-            <div className="absolute inset-0 bg-gradient-to-r to-indigo-500 from-indigo-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-r to-blue-700 from-blue-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl" />
             <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
               <div className="max-w-md mx-auto">
                 <div className="divide-y divide-gray-200">
@@ -52,7 +52,7 @@ const Login = () => {
                     <p className="text-center">
                       <button
                         type="submit"
-                        className="transition rounded-lg duration-200 ease-in-out px-4 py-2 bg-indigo-500 text-white focus:ring-indigo-300 focus:ring hover:bg-indigo-600 select-none outline-none"
+                        className="transition rounded-md duration-200 ease-in-out px-4 py-2 bg-blue-400 text-white focus:ring-indigo-300 focus:ring hover:bg-blue-700 select-none outline-none"
                       >
                         Login
                       </button>
@@ -62,13 +62,13 @@ const Login = () => {
                       className="text-center font-normal"
                     >
                       No account?{" "}
-                      <Link to={"/signup"} >
-                      <a
-                        href="#"
-                        className="text-indigo-500 hover:text-indigo-800"
-                      >
-                        Create one!
-                      </a>
+                      <Link to={"/signup"}>
+                        <a
+                          href="#"
+                          className="text-indigo-500 hover:text-indigo-800"
+                        >
+                          Create one!
+                        </a>
                       </Link>
                     </p>
                   </div>
