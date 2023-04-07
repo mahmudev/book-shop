@@ -115,7 +115,7 @@ const BookDetails = () => {
 
             <div className="flex gap-5 mt-8 items-center">
               <a
-                href={url}
+                onClick={() => addToBookmark(bookData)}
                 target="_blank"
                 className="inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-blue-400 hover:bg-blue-700"
               >
